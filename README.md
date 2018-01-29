@@ -9,7 +9,7 @@
 webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-transition-group（动画）
 
 # 安装
-以下说的命令我是用打开命令提示符来操作的，请用快捷键 ： windows+R→（输入）CMD ，首先去到你需要创建目录的路径那里，我这里把项目放到E盘，因此，需要用命令去到E盘，命令如下图：E+Enter，本人用的是淘宝 NPM 镜像,因为这样安装会快些，操作命令是npm install -g cnpm --registry=https://registry.npm.taobao.org  ，接下来的操作跟npm的命令一样，只是前面都是cnpm
+以下说的命令我是用打开命令提示符来操作的，请用快捷键 ： windows+R→CMD ，首先去到你需要创建项目的路径那里，我这里把项目放到E盘，因此，需要用命令去到E盘，命令如下图：E+Enter，本人用的是淘宝 NPM 镜像,因为这样安装会快些，操作命令是npm install -g cnpm --registry=https://registry.npm.taobao.org  ，接下来的操作跟npm的命令一样，只是前面都是cnpm
 
 ![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/2.png)
 
