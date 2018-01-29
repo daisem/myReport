@@ -26,18 +26,23 @@ webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-tran
 
 3、去到report目录，并创建package.json
 
-命令是：cnpm init 按提示输入，并按enter完毕即可
+命令是：cnpm init 按提示输入，并按enter完毕即可，此时，report文件夹里面多了一个package.json文件
 
-3、在目录下局部安装webpack
+![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/4.png)
 
-命令是：cnpm install webpack --save-dev
+4、在report目录下局部安装webpack，此时，report文件夹里面多了一个node_modules文件夹
 
-4、安装react
+命令是：cnpm i webpack --save-dev
 
-命令是：cnpm install  --save react react-dom
+5、安装react
 
-5、新建配置文件
-命令：
+命令是：cnpm i --save react react-dom
+
+6、新建配置文件webpack.dev.config.js，该文件里写的代码为以下图片
+
+命令是：cd.>webpack.dev.config.js   
+
+
 
 
 5、使用babel转义es6或者7
