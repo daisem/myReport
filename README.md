@@ -74,7 +74,7 @@ webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-tran
 
 现在webpack.dev.config.js里面是这样的
 
-![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/6.png)
+![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/7.png)
 
 6、接下来我们项目会用到css，所以我们需要安装css，并且在webpack.dev.config.js rules增加
 命令是：cnpm i css-loader style-loader --save-dev
@@ -86,7 +86,11 @@ webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-tran
 }
 
 
-此时基本完成安装，我们可以来写个简单的demo
+此时基本完成安装，我们可以来写个简单的demo，新建index.html,index.js,src(文件夹)，在src里面新建pub.css
+
+在index.html里面的代码为：
+
+
 
 
 
