@@ -14,16 +14,17 @@ webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-tran
 ![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/2.png)
 
 
-1、全局安装webpack
+1、全局安装webpack，命令是：cnpm install webpack -g，如下图
 
-命令是：cnpm install webpack -g
-(已安装的朋友，可以不用再次安装)
+![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/3.png)
 
-2、创建一个新的文件夹名为myReport
+(已安装的朋友，忽略)
 
-命令：md myReport
+2、创建一个新的文件夹名为report（我的项目名）
 
-3、创建package.json
+命令：md report
+
+3、去到report目录，并创建package.json
 
 命令是：cnpm init 按提示输入，并按enter完毕即可
 
