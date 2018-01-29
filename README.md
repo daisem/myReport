@@ -100,6 +100,10 @@ webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-tran
 
 ![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/9.png)
 
+输入命令webpack --config webpack.dev.config.js进行打包，打开index.html,就可以看到如图
+
+
+
 
 
 
