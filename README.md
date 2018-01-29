@@ -47,7 +47,7 @@ webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-tran
 
 7、使用babel转义es6或者7，并且新建babel配置文件.babelrc 
 
-安装命令是cnpm install --save-dev babel-core babel-loader babel-preset-es2015 babel-preset-react babel-preset-stage-0
+安装命令是cnpm i --save-dev babel-core babel-loader babel-preset-es2015 babel-preset-react babel-preset-stage-0
 
 新建.babelrc命令：type nul>.babelrc
 
@@ -72,11 +72,21 @@ webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-tran
      }]
  }
 
-6、接下来我们项目会用到css，所以我们需要安装css
-命令是：
+现在webpack.dev.config.js里面是这样的
+
+![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/6.png)
+
+6、接下来我们项目会用到css，所以我们需要安装css，并且在webpack.dev.config.js rules增加
+命令是：cnpm i css-loader style-loader --save-dev
 
 
+{
+   test: /\.css$/,
+   use: ['style-loader', 'css-loader']
+}
 
+
+此时基本完成安装，我们可以来写个简单的demo
 
 
 
