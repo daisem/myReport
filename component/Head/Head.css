@@ -1,0 +1,18 @@
+
+.f36{font-size: 36px}
+.f28{font-size: 28px}
+.tc{text-align: center;}
+.color333{color: #333}
+.headImg img{width: 150px;height:150px;border-radius: 50%}
+.headImg{width: 170px;height: 170px;margin: 20px auto;background: #4C70BA;padding: 10px;border-radius: 50%;}
+.col-md-3{background: #3b5998;height: 620px;width: 24%; margin-right: 1%;}
+.name{color:#839ccf;}
+.head{margin-top: 56px;}
+.nemeTite{ border-bottom: 1px dotted #839CCF;padding-bottom: 38px;width: 156px; margin: 0 auto;}
+@media screen and (max-width:961px) {
+    .col-md-3{height: 200px;}
+    .main{width: 100%}
+    .nemeTite,.headImg{float: left}
+}
+
+.indexStyle{z-index: 1}
