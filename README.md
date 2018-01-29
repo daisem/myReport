@@ -90,6 +90,20 @@ webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-tran
 
 在index.html里面的代码为：
 
+![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/8.png)
+
+在index.js里面的代码为：
+
+![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/10.png)
+
+在pub.css里面的代码为：
+
+![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/9.png)
+
+
+
+
+
 
 
 
