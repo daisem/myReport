@@ -106,6 +106,8 @@ webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-tran
 
 当你看到这个页面的时候，证明你上述的基本安装成功。
 
+下节课我们再继续说引用react的各种组件。
+
 
 
 
