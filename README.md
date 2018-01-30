@@ -114,10 +114,13 @@ webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-tran
 webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-transition-group
 ![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/12.png)
 
-首先我们看看上图，我们把项目分割成左右结构，左边结构，有分成上下部分来做的，所有我们需要做的组件，分别有Head、List、Main，因此现在我们来新建一个文件夹component，来放这些组件，在component文件夹里面，分别新建Head、List、Main文件夹，来放好里面对应的组件。此时文件夹里
+首先我们看看上图，我们把项目分割成左右结构，左边结构，有分成上下部分来做的，所有我们需要做的组件，分别有Head、List、Main，因此现在我们来新建一个文件夹component，来放这些组件，在component文件夹里面，分别新建Head、List、Main文件夹，来放好里面对应的组件。此时的文件夹是这样的。
 
 ![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/14.png)
 ![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/13.png)
+
+新建好文件夹后，现在我们先来写Head里面的组件，我们需要在Head里面新建一个Head.js,与对应的Head.css
+
 
 
 
