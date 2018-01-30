@@ -102,7 +102,7 @@ webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-tran
 
 输入命令webpack --config webpack.dev.config.js进行打包，打开index.html,就可以看到如图
 
-![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/11.png)
+![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/12.png)
 
 当你看到这个页面的时候，证明你上述的基本安装成功。
 
@@ -112,7 +112,10 @@ webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-tran
 
 这节课，我们接下来继续来写myReort项目的相关内容。
 webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-transition-group
-首先我们把需要组件都安装下来先，myReport这个项目，我用到了bootstrap
+
+首先我们看看下图，我们把项目分割成左右结构，
+
+![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/11.png)
 
 
 
