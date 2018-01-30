@@ -76,7 +76,7 @@ webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-tran
 
 ![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/7.png)
 
-6、接下来我们项目会用到css，所以我们需要安装css，并且在webpack.dev.config.js rules增加
+8、接下来我们项目会用到css，所以我们需要安装css，并且在webpack.dev.config.js rules增加
 命令是：cnpm i css-loader style-loader --save-dev
 
 
