@@ -193,10 +193,12 @@ export default class Head extends React.Component{
 ```
 
 由于Head.js里面，我添加了图片所以，这个时候需要编译图片，命令是：cnpm install url-loader file-loader --save-dev ，同时需要在webpack.dev.config.js rules增加<br>
-```{ 
- test: /\.(png|jpg|gif)$/,<br>  
- use: [{
- loader: 'url-loader'
+```
+{
+  test: /\.(png|jpg|gif)$/,
+	use: [{
+	 	loader: 'url-loader'
+	}]
 }
 ```
 
@@ -220,6 +222,7 @@ class App extends React.Component{
 }
 ReactDom.render(<App/>, document.getElementById('app'));
 ```
+再次输入命令webpack --config webpack.dev.config.js运行，这时候你会看到下图，head组件就成功了
 
 
 
