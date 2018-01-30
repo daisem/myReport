@@ -225,7 +225,8 @@ ReactDom.render(<App/>, document.getElementById('app'));
 ```
 再次输入命令webpack --config webpack.dev.config.js运行，这时候你会看到下图，head组件就成功了
 
-![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/1-1.png)
+![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/1-1.png
+)
 
 
 
