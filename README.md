@@ -42,7 +42,20 @@ webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-tran
 
 命令是：cd.>webpack.dev.config.js   
 
-![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/5.png)
+```const path = require('path');
+
+module.exports = {
+
+  	/*入口*/
+     entry: path.join(__dirname, 'index.js'),
+    
+    /*输出到dist文件夹，输出文件名字为bundle.js*/
+    output: {
+        path: path.join(__dirname, './dist'),
+        filename: 'bundle.js'
+    }
+};
+```
 
 
 7、使用babel转义es6或者7，并且新建babel配置文件.babelrc 
@@ -91,15 +104,47 @@ webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-tran
 
 在index.html里面的代码为：
 
-![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/8.png)
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="./src/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./src/bootstrap-theme.min.css">
+</head>
+<body style="background: url(./src/img/bg5.png);">
+	<div id="app"></div>
+</body>
+	<script type="text/javascript" src="dist/bundle.js" charset="utf-8"></script>
+</html>
+```
 
 在index.js里面的代码为：
 
-![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/10.png)
+```
+import React from 'react';
+import ReactDom from 'react-dom';
+import './src/pub.css';
+
+class App extends React.Component{
+     render(){
+          return(
+                    <div className="main f24">
+                         这是我的一个react
+                    </div>
+               )
+     }
+}
+ReactDom.render(<App/>, document.getElementById('app'))
+```
 
 在pub.css里面的代码为：
 
-![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/9.png)
+```
+*{margin:0;padding:0;font-family: '微软雅黑'}
+.f24{font-size: 24px;color: red}
+```
 
 输入命令webpack --config webpack.dev.config.js进行打包，打开index.html,就可以看到如图
 
@@ -124,9 +169,32 @@ webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-tran
 
 在Head.js里面写的内容是：
 
-![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/15.jpg)
+```import React from 'react';
+import ReactDom from 'react-dom';
+import './Head.css';
+import image from './img/1.jpg';
+export default class Head extends React.Component{
+	render(){
+		return(
+				<div className = "head">
+					<div className = "headImg">
+						<img src={image}/>
+					</div>
+					<div className="nemeTite">
+						<div className = "name tc f36">
+							daisem
+						</div>
+						<div className = "name tc f28">
+							前端开发
+						</div>
+					</div>
+				</div>
+			)
+	}
+}
+```
 
-由于Head.js里面，我添加了图片所以，这个时候需要编译图片，命令是：npm install url-loader file-loader --save-dev ，同时需要在webpack.dev.config.js rules增加<br>
+由于Head.js里面，我添加了图片所以，这个时候需要编译图片，命令是：cnpm install url-loader file-loader --save-dev ，同时需要在webpack.dev.config.js rules增加<br>
 ```{ 
  test: /\.(png|jpg|gif)$/,<br>  
  use: [{
@@ -136,6 +204,7 @@ webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-tran
 
 在Head.css里面写的内容是：
 
+![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/16.png)
 
 
 然后再index.js里面添加Head.js,代码如下：<br>
