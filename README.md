@@ -146,7 +146,7 @@ ReactDom.render(<App/>, document.getElementById('app'))
 
 输入命令webpack --config webpack.dev.config.js进行打包，打开index.html,就可以看到如图
 
-![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/11.png)
+![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/11-1.png)
 
 当你看到这个页面的时候，证明你上述的基本安装成功。
 
