@@ -108,6 +108,12 @@ webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-tran
 
 下节课我们再继续说引用react的各种组件。
 
+————————————————————————分割线————————————————————————
+
+这节课，我们接下来继续来写myReort项目的相关内容。
+webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-transition-group
+首先我们把需要组件都安装下来先，myReport这个项目，我用到了bootstrap
+
 
 
 
