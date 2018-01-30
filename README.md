@@ -111,7 +111,7 @@ webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-tran
 ————————————————————————分割线————————————————————————
 
 这节课，我们接下来继续来写myReort项目的相关内容。
-webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-transition-group
+
 ![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/12.png)
 
 首先我们看看上图，我们把项目分割成左右结构，左边结构，有分成上下部分来做的，所有我们需要做的组件，分别有Head、List、Main，因此现在我们来新建一个文件夹component，来放这些组件，在component文件夹里面，分别新建Head、List、Main文件夹，来放好里面对应的组件。此时的文件夹是这样的。
@@ -122,6 +122,23 @@ webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-tran
 新建好文件夹后，现在我们先来写Head里面的组件，我们需要在Head里面新建一个Head.js,与对应的Head.css,为了方便管理，我再里面也建了一个img的文件夹，并且把自己喜欢的图片放到里面去，我这里备用的图片是1.jpg，用来管理我的头像图片。
 
 在Head.js里面写的内容是：
+
+![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/15.jpg)
+
+由于Head.js里面，我添加了图片所以，这个时候需要编译图片，命令是：npm install url-loader file-loader --save-dev ，同时需要在webpack.dev.config.js rules增加<br>  
+{<br>  
+ test: /\.(png|jpg|gif)$/,<br>  
+ use: [{<br>  
+ loader: 'url-loader'<br>  
+}<br>  
+
+
+在Head.css里面写的内容是：
+
+
+
+然后再index.js里面添加Head.js,如下图
+
 
 
 
