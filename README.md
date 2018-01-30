@@ -86,9 +86,6 @@ module.exports = {
      }]
  }
 ```
-现在webpack.dev.config.js里面是这样的
-
-![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/7.png)
 
 8、接下来我们项目会用到css，所以我们需要安装css，并且在webpack.dev.config.js rules增加
 命令是：cnpm i css-loader style-loader --save-dev
@@ -99,6 +96,10 @@ module.exports = {
    use: ['style-loader', 'css-loader']
 }
 ```
+现在webpack.dev.config.js里面是这样的
+
+![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/7.png)
+
 # 创建第一个demo
 此时基本完成安装，我们可以来写个简单的demo，新建index.html,index.js,src(文件夹)，在src里面新建pub.css
 
