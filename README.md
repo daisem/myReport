@@ -53,7 +53,7 @@ webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-tran
 
 .babelrc的文件里面要写入
 
-{
+```{
    "presets": [
      "es2015",
      "react",
@@ -61,9 +61,10 @@ webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-tran
    ],
    "plugins": []
  }
+ ```
  
  此时需要修改webpack.dev.config.js，增加babel-loader！
-
+```
  module: {
      rules: [{
          test: /\.js$/,
@@ -71,7 +72,7 @@ webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-tran
          include: path.join(__dirname, 'src')
      }]
  }
-
+```
 现在webpack.dev.config.js里面是这样的
 
 ![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/7.png)
@@ -79,12 +80,12 @@ webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-tran
 8、接下来我们项目会用到css，所以我们需要安装css，并且在webpack.dev.config.js rules增加
 命令是：cnpm i css-loader style-loader --save-dev
 
-
+```
 {
    test: /\.css$/,
    use: ['style-loader', 'css-loader']
 }
-
+```
 # 创建第一个demo
 此时基本完成安装，我们可以来写个简单的demo，新建index.html,index.js,src(文件夹)，在src里面新建pub.css
 
@@ -137,7 +138,21 @@ webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-tran
 
 
 
-然后再index.js里面添加Head.js,如下图
+然后再index.js里面添加Head.js,代码如下：<br>
+```import React from 'react';
+import ReactDom from 'react-dom';
+import Head from "./component/Head/Head.js";
+import './src/pub.css';
+
+class App extends React.Component{
+     render(){
+        return(
+            <Head/>
+     	  )
+     }
+}
+ReactDom.render(<App/>, document.getElementById('app'));
+```
 
 
 
