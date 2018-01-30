@@ -102,7 +102,7 @@ webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-tran
 
 输入命令webpack --config webpack.dev.config.js进行打包，打开index.html,就可以看到如图
 
-![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/12.png)
+![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/11.png)
 
 当你看到这个页面的时候，证明你上述的基本安装成功。
 
@@ -112,10 +112,13 @@ webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-tran
 
 这节课，我们接下来继续来写myReort项目的相关内容。
 webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-transition-group
+![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/12.png)
 
-首先我们看看下图，我们把项目分割成左右结构，
+首先我们看看上图，我们把项目分割成左右结构，左边结构，有分成上下部分来做的，所有我们需要做的组件，分别有Head、List、Main，因此现在我们来新建一个文件夹component，来放这些组件，在component文件夹里面，分别新建Head、List、Main文件夹，来放好里面对应的组件。此时文件夹里
 
-![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/11.png)
+
+
+
 
 
 
