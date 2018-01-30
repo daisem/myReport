@@ -125,13 +125,13 @@ webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-tran
 
 ![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/15.jpg)
 
-由于Head.js里面，我添加了图片所以，这个时候需要编译图片，命令是：npm install url-loader file-loader --save-dev ，同时需要在webpack.dev.config.js rules增加
-{ 
+由于Head.js里面，我添加了图片所以，这个时候需要编译图片，命令是：npm install url-loader file-loader --save-dev ，同时需要在webpack.dev.config.js rules增加<br>
+```{ 
  test: /\.(png|jpg|gif)$/,<br>  
  use: [{
  loader: 'url-loader'
 }
-
+```
 
 在Head.css里面写的内容是：
 
