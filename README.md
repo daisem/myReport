@@ -119,33 +119,12 @@ webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-tran
 ![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/14.png)
 ![image](https://raw.githubusercontent.com/daisem/myReport/master/screenshots/13.png)
 
-新建好文件夹后，现在我们先来写Head里面的组件，我们需要在Head里面新建一个Head.js,与对应的Head.css,为了方便管理，我再里面也建了一个img的文件夹，用来管理我的头像图片。
+新建好文件夹后，现在我们先来写Head里面的组件，我们需要在Head里面新建一个Head.js,与对应的Head.css,为了方便管理，我再里面也建了一个img的文件夹，并且把自己喜欢的图片放到里面去，我这里备用的图片是1.jpg，用来管理我的头像图片。
 
 在Head.js里面写的内容是：
 
-import React from 'react';
-import ReactDom from 'react-dom';
-import './Head.css';
-import image from './img/1.jpg';
-export default class Head extends React.Component{
-	render(){
-		return(
-				<div className = "head">
-					<div className = "headImg">
-						<img src={image}/>
-					</div>
-					<div className="nemeTite">
-						<div className = "name tc f36">
-							daisem
-						</div>
-						<div className = "name tc f28">
-							前端开发
-						</div>
-					</div>
-				</div>
-			)
-	}
-}
+
+
 
 
 
