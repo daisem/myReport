@@ -85,7 +85,7 @@ webpack+react+react-route+react-bootstrap+react-highcharts+react-addons-css-tran
    use: ['style-loader', 'css-loader']
 }
 
-
+# 创建第一个demo
 此时基本完成安装，我们可以来写个简单的demo，新建index.html,index.js,src(文件夹)，在src里面新建pub.css
 
 在index.html里面的代码为：
